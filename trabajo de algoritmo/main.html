@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
+	<script src="bootstrap/js/bootstrap.min.js" ></script>
+	<script src="jquery.js" ></script>
+	<link rel="stylesheet" href="css.css">
+	<title>mochila</title>
+</head>
+<body style="background-color: rgb(134, 134, 134)">
+	<table class="table table-striped table-color:red " style="width:30%" align="center">
+  	<tr>
+    	<th>objeto</th>
+    	<th><center>peso</center></th>
+    	<th><center>valor</center></th>
+  	</tr>
+  	<tr>
+    	<td><img src="gold.png"></td>
+    	<form action="index.php" method="post">
+    	<td><input class="form-control" type="text" name="peso_gold"/></td>
+    	<td><input class="form-control" type="text" name="valor_gold"/></td>
+  	</tr>
+  	<tr>
+    	<td><img src="silver.png"></td>
+    	<td><input class="form-control" type="text" name="peso_silver"/></td>
+    	<td><input class="form-control" type="text" name="valor_silver"/></td>
+  	</tr>
+  	<tr>
+    	<td><img src="copper.png"></td>
+    	<td><input class="form-control" type="text" name="peso_copper"/></td>
+    	<td><input class="form-control" type="text" name="valor_copper"/></td>
+  	</tr>
+  	<tr>
+  		<td colspan="2"> <h6>Peso maximo soportado</h6> </td>
+		<td><input class="form-control" type="text" name="pesoMax"/></td>
+  	</tr>
+  	<tr>
+		<td colspan="3"><center><input class="btn btn-secondary" type="submit" name="submit" value="enviar"></center></td>
+	</tr>
+	</table>
+</body>
+</html>
