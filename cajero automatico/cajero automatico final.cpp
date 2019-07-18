@@ -122,7 +122,7 @@ switch(option1)
 	 	cout<<"usted cuenta con : "<<saldot<<" soles \n";
 	 	
 	 }break;
-	 case 7:{system("cls");cout<<"cerrando sistema.......¡¡ GRACIAS POR UTILIZAR NUESTRO CAJERO BCP";exit(0); }break;
+	 case 7:{system("cls");cout<<"cerrando sistema.......Â¡Â¡ GRACIAS POR UTILIZAR NUESTRO CAJERO BCP";exit(0); }break;
 		
 	}
 return saldot;	
@@ -305,7 +305,7 @@ double Cajero::reccel(double saldot)
 	    do{
 	    	Selec:
 	    		
-	    	cout<<"selecionar compañia \n";
+	    	cout<<"selecionar compaÃ±ia \n";
 	    	cout<<"1. movistar"<<endl;
 	    	cout<<"2. claro"<<endl;
 	    	cout<<"3. bitel"<<endl;
@@ -408,10 +408,10 @@ void Cajero::Ejecutar(void)
 		 	
 	}while(sn=='s'||sn=='S');
 	system ("cls");
-	cout<<"cerrando el sistema.......¡¡GRACIAS POR UTILIZAR NUESTRO CAJERO BCN\n";exit(0);
+	cout<<"cerrando el sistema.......Â¡Â¡GRACIAS POR UTILIZAR NUESTRO CAJERO BCN\n";exit(0);
 	
 }
-system (color “color de 2” “color de 1”);
+
 int main(void)
 {
 	
